@@ -9,14 +9,20 @@ export const PostOwner = ({ props }) => {
           className="rounded-circle"
           style={{ objectFit: "cover" }}
         />
-        <span className="fw-semibold fs-5 text-white">{props.name}</span>
+        <span className="fw-semibold fs-5 text-white">
+          Kittiwat Yasarawan 650612079
+          {/* {props.name} */}
+        </span>
       </div>
 
-      <span className="text-white">{props.text}</span>
+      <span className="text-white">
+        Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207
+        {/* {props.text} */}
+      </span>
 
       <div className="d-flex align-items-center gap-1">
         <img src="/like.svg" width={20}></img>
-        <span style={{ color: "#B0B3B8" }}>{props.likeNum} คน</span>
+        <span style={{ color: "#B0B3B8" }}>{/* {props.likeNum} */}100 คน</span>
       </div>
       <hr className="m-0 border" />
     </div>
