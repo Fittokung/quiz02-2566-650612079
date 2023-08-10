@@ -39,7 +39,7 @@ export default function HomePage() {
 
         {/* Reply Example */}
         <div className="d-flex gap-2 my-2 ps-5">
-          {comments.map((comments) => (
+          {/* {comments.map((comments) => (
             <Reply
               userImagePath={comments.replies.userImagePath}
               username={comments.replies.username}
@@ -47,7 +47,7 @@ export default function HomePage() {
               likeNum={comments.replies.likeNum}
               replies={comments.replies.replies}
             />
-          ))}
+          ))} */}
         </div>
 
         {/* map-loop render Comment component here */}
